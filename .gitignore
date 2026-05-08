@@ -1,0 +1,27 @@
+# Visual Studio cache / metadata
+.vs/
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+
+# Compiled objects
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
