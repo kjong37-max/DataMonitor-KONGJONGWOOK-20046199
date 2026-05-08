@@ -1,6 +1,7 @@
 #include <io.h>
 #include <fcntl.h>
 #include <conio.h>
+#define NOMINMAX
 #include <Windows.h>
 #include <thread>
 #include <chrono>

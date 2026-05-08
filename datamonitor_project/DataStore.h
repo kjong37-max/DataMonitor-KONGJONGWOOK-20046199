@@ -17,7 +17,7 @@ public:
         int64_t procRate = procDist(rng_);
 
         totalRecords_ += static_cast<uint64_t>(inRate * intervalSec);
-        pending_       = std::max(0LL, pending_ + (inRate - procRate) * intervalSec);
+        pending_       = (std::max)(0LL, pending_ + (inRate - procRate) * intervalSec);
         errorCount_   += static_cast<uint64_t>(errDist(rng_));
 
         SYSTEMTIME st{};
